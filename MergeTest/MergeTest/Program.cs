@@ -8,12 +8,7 @@ namespace MergeTest
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Rular rular = new Rular(10);
-            rular.Run();
-        }
-
+        // {        2023.   07. 03. Modified class position / people1
         public class Rular
         {
             private const float ONE_INCH = 2.54F;
@@ -33,5 +28,13 @@ namespace MergeTest
                 Console.WriteLine($"{this.Centimeter}cm 는 {this.Inch}inch 입니다.");
             }
         }
+        // }        2023.   07. 03. Modified class position / people1
+
+        static void Main(string[] args)
+        {
+            Rular rular = new Rular(10);
+            rular.Run();
+        }
+
     }
 }
